@@ -123,8 +123,8 @@
 }
 @media screen and (min-width: 400px) and (max-width:500px) {
     .details ul li{
-        padding: 0;
-        margin-right: 2px;
+        padding: 10;
+        margin-right: 20px;
     }
     .details li h1{
         font-size: 25px;
