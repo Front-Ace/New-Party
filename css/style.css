@@ -1,0 +1,166 @@
+/*                         nav bar */
+.navs{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.navbar {
+   
+    width: 120px;
+    height: 100vh;
+    background-color: rgba(191, 60, 60, 0.5);
+    display: none;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 5px;
+    padding: 0;
+  }
+  
+  .navbar li {
+    margin-bottom: 10px;
+    display: none;
+  }
+  
+  .navbar li a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    transition: all 500ms;
+  }
+  
+  .navbar li a:hover {
+    color: white;
+    background-color: rgba(191, 60, 60, 1);
+    border-color: #af8f8f;
+    
+  }
+
+  .menu{
+
+    cursor: pointer;
+    
+  }
+
+
+/*                         Home section */
+.img{
+    height: 75vh;
+    background-image: linear-gradient(rgba(247, 92, 92, 0.5),rgba(191, 60, 60, 0.5)), url(../img/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center ;
+}
+/*                           Duration Section */
+.duration h3{
+    margin-top: 0;
+    margin-bottom: 0;
+    color: white;
+    background-color: rgb(234, 140, 140);
+    cursor: pointer;
+}
+.duration p{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: none;
+    color: black;
+}
+.duration .first p{
+    display: block;
+}
+/*                            Details section */
+.logo{
+    height: 30vh;
+    background-image: linear-gradient(rgba(247, 92, 92, 0.5),rgba(191, 60, 60, 0.5)) , url(../img/header2.jpg);
+    background-size: cover;
+    background-repeat: round;
+
+}
+
+.details ul li{
+    border: 1px solid;
+    padding: 65px;
+    margin-right: 35px;
+}
+
+@media screen and (max-width:1140px) {
+    .details ul li{
+        padding: 50px;
+        margin-right: 35px;
+    }
+    
+}
+@media screen and (max-width:860px) {
+    .details ul li{
+        padding: 30px;
+        margin-right: 35px;
+    }
+    
+}
+@media screen and (max-width:680px) {
+    .details ul li{
+        padding: 20px;
+        margin-right: 35px;
+    }
+    
+    
+}
+@media screen and (max-width:570px) {
+    .details ul li{
+        padding: 15px;
+        margin-right: 35px;
+    }
+    
+    
+}
+@media screen and (min-width: 400px) and (max-width:500px) {
+    .details ul li{
+        padding: 0;
+        margin-right: 2px;
+    }
+    .details li h1{
+        font-size: 25px;
+    
+    
+}
+}
+
+/*                             Contact Section */
+ul{
+    list-style: none;
+}
+li{
+    margin-right: 10px;
+}
+li a{
+    border: 1px solid rgb(124, 124, 124);
+    padding: 8px;
+    color: rgb(160, 154, 154);
+    transition:all 300ms;
+}
+li:hover a {
+    background-color: rgb(173, 17, 17);
+    color: white;
+    border: 1px solid rgb(173, 17, 17);
+    
+}
+
+@media screen and (max-width:768px) {
+    .contact-head{
+        text-align: center;
+    }
+    .left{
+        margin: auto;
+        transform: translate(-31% , 0);
+        
+        text-align: center;
+    }
+}
