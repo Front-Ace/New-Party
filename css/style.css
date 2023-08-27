@@ -105,33 +105,22 @@
     }
     
 }
-@media screen and (max-width:680px) {
+@media screen and (max-width:600px) {
     .details ul li{
-        padding: 20px;
+        padding: 10px;
         margin-right: 35px;
-    }
-    
-    
-}
-@media screen and (max-width:570px) {
-    .details ul li{
-        padding: 15px;
-        margin-right: 35px;
-    }
-    
-    
-}
-@media screen and (min-width: 400px) and (max-width:500px) {
-    .details ul li{
-        padding: 10;
-        margin-right: 20px;
+        
     }
     .details li h1{
         font-size: 25px;
     
     
 }
-}
+
+} 
+    
+
+
 
 /*                             Contact Section */
 ul{
@@ -164,3 +153,4 @@ li:hover a {
         text-align: center;
     }
 }
+

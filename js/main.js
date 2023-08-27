@@ -8,9 +8,9 @@ function displayRemainCharcters(number) {
 }
 
 document.querySelector(`textarea`).addEventListener(`keyup`,function() {
-    let length= document.querySelector(`textarea`).value.length;
-    console.log(length)
-    displayRemainCharcters(length)
+    let characterWritten= document.querySelector(`textarea`).value.length;
+    console.log(characterWritten)
+    displayRemainCharcters(characterWritten)
     }  );
 
 
